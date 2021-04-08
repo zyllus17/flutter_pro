@@ -1,0 +1,7 @@
+{
+    "incrementAmountDev": 4,
+    "incrementAmountProd": 2,
+    "incrementAmountStage": 3,
+    "secretKey": "DEV extremely secret stuff like API keys which cannot be put in the source control and must be added into .gitignore",
+    "apiKey": "jfksdhfu349d32nf8e2n3j"
+}
