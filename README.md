@@ -1,16 +1,41 @@
 # flutter_pro
+This repo contains the best practices I learn everyday in Flutter to create Production ready apps.
 
-A new Flutter project.
+---
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [.vscode](#installation)
+- [assets](#extensions)
+- [config](#contributors)
+- [core](#installation)
+- [presentation](#extensions)
 
-A few resources to get you started if this is your first Flutter project:
+- - [blocs]()
+- - [cubits]()
+- - [screens]()
+- - - [onboarding_screen]()
+- [utils](#contributors)
+- [widgets]()
+- [README]()
+- [screenshots]()
+- [tests]()
+- [web]()
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Too tired, will write tomorrow
+
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+<br><br>
+<pre>
+&lt;details&gt;
+&lt;summary&gt;How do I dropdown?&lt;&#47;summary&gt;
+&lt;br&gt;
+This is how you dropdown.
+&lt;&#47;details&gt;
+</pre>
+</details>
