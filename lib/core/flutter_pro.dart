@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app_config.dart';
+
 //This is the widget below the [MyApp] root widget
 class FlutterPro extends StatelessWidget {
   const FlutterPro({
@@ -10,11 +12,13 @@ class FlutterPro extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('FlutterPro App Bar'),
+        title: Text(
+          AppConfig.of(context).appTitle,
+        ),
       ),
       body: Center(
         child: Container(
-          child: Text('FlutterPro'),
+          child: Text('You are running ${AppConfig.of(context).appTitle}'),
         ),
       ),
     );
